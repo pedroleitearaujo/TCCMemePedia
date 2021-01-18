@@ -1,0 +1,36 @@
+CREATE TABLE `usuario` (
+  `idUsu` INT NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NULL,
+  `email` varchar(150) NULL,
+  `usuario` varchar(15) NULL,
+  `senha` varchar(45) NULL,
+  `palavra_Secreta` varchar(45) NULL,
+  `pergunta_Secreta` varchar(45) NULL,
+  `data_cadastro` datetime NULL,
+  PRIMARY KEY (`idUsu`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `meme` (
+  `idMeme` INT NOT NULL AUTO_INCREMENT,
+  `nome_meme` varchar(255) NULL,
+  `url` varchar(255) NULL,
+  PRIMARY KEY (`idMeme`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `comentario` ( 
+`idComentario` INT NOT NULL AUTO_INCREMENT, 
+`comentario` varchar(255) NULL, 
+`idUsu` INT NOT NULL,
+`idMeme` INT NOT NULL,
+`data` datetime NULL,
+FOREIGN KEY (idUsu) REFERENCES usuario(idUsu), 
+FOREIGN KEY (idMeme) REFERENCES meme(idMeme), 
+PRIMARY KEY (`idComentario`) 
+) ENGINE=InnoDB
+
+CREATE TABLE `artigos` (
+  `idUsu` INT NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) NULL,
+  `artigo` varchar(150) NULL,
+  PRIMARY KEY (`idUsu`)
+) ENGINE=InnoDB;

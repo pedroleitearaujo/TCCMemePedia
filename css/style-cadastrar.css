@@ -1,0 +1,172 @@
+body{
+    background-color: whitesmoke !important;
+}
+
+.divCadastrarSe{
+    margin-top: 40px;
+}
+
+.ttlCadastrarSe{
+    color: rgb(108, 150, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.txtCrieSuaContaNaMemepedia{
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.lblNome, .lblEmail, .lblUsuario, .lblSenha{
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.frmNome, .frmEmail, .frmUsuario, .frmSenha, .frmPerguntaDeSeguranca{
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid hsl(0, 5%, 68%);
+    border-radius: 5px;
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+    transition: border-color 0.10s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+}
+
+.frmNome:focus, .frmEmail:focus, .frmUsuario:focus, .frmSenha:focus, 
+.frmPerguntaDeSeguranca:focus{
+    color: hsl(0, 2%, 43%);
+    background-color: white;
+    border-color: #8ac3ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.frmNome:hover, .frmEmail:hover, .frmUsuario:hover, .frmSenha:hover, 
+.frmPerguntaDeSeguranca:hover{
+    color: hsl(0, 2%, 43%);
+    background-color: white;
+    border-color: rgb(108, 150, 230);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.lblPerguntaDeSeguranca{
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.lblPerguntaDeSeguranca2{
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+.selectPerguntaDeSeguranca{
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid hsl(0, 5%, 68%);
+    border-radius: 5px;
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    height: 45px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    transition: border-color 0.10s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+}
+
+.selectPerguntaDeSeguranca:focus {
+    color: hsl(0, 2%, 43%);
+    background-color: white;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.selectPerguntaDeSeguranca:hover{
+    color: hsl(0, 2%, 43%);
+    background-color: white;
+    border-color: rgb(108, 150, 230);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btnCriarConta{
+  background-color: transparent;
+  border: 2px solid rgb(108, 150, 230);
+  border-radius: 0.25rem;
+  color: rgb(108, 150, 230);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+}
+
+.btnCriarConta:hover {
+    color: white;
+    background-color: rgb(108, 150, 230);
+    border-color: rgb(108, 150, 230);
+}
+  
+.btnCriarConta:focus{
+    box-shadow: 0 0 0 0.2rem rgb(108, 150, 230);
+}
+
+.txtJaPossuiUmaConta{
+    color: hsl(0, 2%, 43%);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.linkJaPossuiUmaConta{
+    color: rgb(108, 150, 230);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.linkJaPossuiUmaConta:link, .linkJaPossuiUmaConta:visited, .linkJaPossuiUmaConta:active{
+    text-decoration: none;
+}
+    
+.linkJaPossuiUmaConta:hover {
+    text-decoration: none;
+    color: rgb(221, 45, 45);
+}
+
+.ftrMemepedia2019{
+    text-align: center;
+}
+.txtMemepedia2019{
+    color: hsl(0, 0%, 48%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.list-inline-item{
+    color: hsl(0, 0%, 50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.list-inline-item:link, .list-inline-item:visited, .list-inline-item:active{
+    text-decoration: none;
+}
+    
+.list-inline-item:hover {
+    text-decoration: none;
+    color: rgb(221, 45, 45);
+}

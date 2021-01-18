@@ -1,0 +1,111 @@
+body{
+    background-color: whitesmoke !important;
+    text-align: center;
+}
+
+.divEsqueciMinhaSenha{
+    margin-top: 140px;
+}
+
+.ttlEsqueciMinhaSenha{
+    color: rgb(108, 150, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.txtInformeSeuEmail{
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.txtEmail{
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.frmEmail{
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid hsl(0, 5%, 68%);
+    border-radius: 5px;
+    color: hsl(0, 2%, 43%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+    transition: border-color 0.10s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+}
+
+.frmEmail:focus{
+    color: hsl(0, 2%, 43%);
+    background-color: white;
+    border-color: #8ac3ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.frmEmail:hover{
+    color: hsl(0, 2%, 43%);
+    background-color: white;
+    border-color: rgb(108, 150, 230);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btnVerificar{
+    background-color: transparent;
+    border: 2px solid rgb(108, 150, 230);
+    border-radius: 0.25rem;
+    color: rgb(108, 150, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+}
+
+.btnVerificar:hover {
+    color: white;
+    background-color: rgb(108, 150, 230);
+    border-color: rgb(108, 150, 230);
+}
+ 
+.btnVerificar:focus {
+    box-shadow: 0 0 0 0.2rem rgb(108, 150, 230);
+}
+
+.ftrMemepedia2019{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.txtMemepedia2019{
+    color: hsl(0, 0%, 48%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.list-inline-item{
+    color: hsl(0, 0%, 50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.list-inline-item:link, .list-inline-item:visited, .list-inline-item:active{
+    text-decoration: none;
+}
+    
+.list-inline-item:hover {
+    text-decoration: none;
+    color: rgb(43, 111, 238);
+}

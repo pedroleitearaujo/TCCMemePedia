@@ -1,0 +1,183 @@
+/* Configurações de estilo da tag body */
+body{
+	background-color: whitesmoke;
+}
+
+/* Configurações de estilo do navbar(menu superior) */
+.navbarMemePedia{
+	background-color: rgb(108, 150, 230);
+}
+
+/* Configurações de estilo do navbar-brand e os nav-links(itens do menu) */
+
+.navbar-brand, .nav-link{
+	color: #FDFBFB;
+   font-family: 'Times New Roman', Times, serif;
+	font-size: 28px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.navbar-brand:hover{
+	color: #FDFBFB;
+}
+
+.nav-link:hover{
+	color: whitesmoke;
+	font-size: 32px;
+}
+
+.navLinkCadastrar{
+	color: #FDFBFB;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 28px;
+	margin-left: 5px;
+	margin-right: 20px;
+}
+
+.navLinkCadastrar:hover{
+	color: whitesmoke;
+	font-size: 32px;
+}
+
+.btnAcessar{
+	border: 2px solid rgb(240, 240, 103);
+	color: rgb(240, 240, 103);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 28px;
+	margin-right: 30px;
+	margin-top: 6px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btnAcessar:hover{
+	color: black;
+	background-color: rgb(240, 240, 103);
+	font-size: 32px;
+}
+
+.sidebar {
+	 position: fixed;
+	 top: 0;
+	 bottom: 0;
+     left: 0;
+     z-index: 1000;
+	 display: block; 
+     padding: 20px;
+     overflow-x: hidden;
+     overflow-y: auto;
+	 border-right: 1px solid rgb(180, 180, 180);
+				}
+
+.main {
+	 padding: 20px;
+}
+		
+
+.list-group-item:visited{
+    text-decoration: none;
+}
+
+.list-group-item:link{
+    text-decoration: none;
+}
+
+.list-group-item:hover{
+    text-decoration: none;
+}
+
+.list-group-item:active{
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .fonte{
+      font-size: 37px;
+  }
+  #myInput {
+    margin-top: 50px;
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  #myUL {
+    
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+  }
+
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  .teste{
+    padding-left: 0px;
+    margin-left: 23px !important
+  }
+  
+  .ttlIntroducao{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-style: normal;
+    margin-top: 50px;
+  }
+
+ .Arttexto{
+    color: grey;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    margin-right: 20%;
+    margin-top: 10px;
+ }
+
+ .Arttexto1{
+  color: grey;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-style: normal;
+  margin-right: 20%;
+  margin-top: 10px;
+}
+ 
+  .topicoArt{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    margin-top:10px;
+  }
+
+  .ImgMeme{
+    height: 610px;
+    width: 1060px;
+    margin: 1px 4px 0 0;
+    padding: 3px; 
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+  }
